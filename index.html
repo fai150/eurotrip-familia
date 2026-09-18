@@ -181,14 +181,14 @@ footer button{background:none;border:0;color:var(--sky);text-decoration:underlin
 
   <footer>
     Horario y ubicación estimados según el itinerario; no es seguimiento GPS en tiempo real.<br>
-    <button id="replay">Ver animación otra vez</button> · <span id="ver">vcf196d8b31</span>
+    <button id="replay">Ver animación otra vez</button> · <span id="ver">vcd11e5bf27</span>
   </footer>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script>
 'use strict';
-const BUILD='cf196d8b31';
+const BUILD='cd11e5bf27';
 const REFRESH_MS=45000;
 const MOMENT_MS=8000;
 const $=id=>document.getElementById(id);
@@ -196,7 +196,7 @@ const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let P=null, map=null, layer=null, lastKey='';
 
 /* ---------- simulation (dev only; never for family) ---------- */
-const DEV=/^(localhost|127\.0\.0\.1)$/.test(location.hostname)||/\.ts\.net$/.test(location.hostname)||(()=>{try{return localStorage.getItem('familia_dev')==='1'}catch(e){return false}})();
+const DEV=/^(localhost|127\.0\.0\.1)$/.test(location.hostname)||(()=>{try{return localStorage.getItem('familia_dev')==='1'}catch(e){return false}})();  // production (ts.net) never honors ?sim=
 const simParam=new URLSearchParams(location.search).get('sim');
 const SIM=(DEV&&simParam)?new Date(simParam):null;
 const now=()=>SIM?new Date(SIM.getTime()+(Date.now()-t0)):new Date();
