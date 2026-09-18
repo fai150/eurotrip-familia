@@ -1,0 +1,12 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=()
+  X-Robots-Tag: noindex, nofollow, noarchive
+/eurotrip_familia_public.json
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/
+  Cache-Control: no-cache, max-age=0, must-revalidate

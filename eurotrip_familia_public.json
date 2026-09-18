@@ -1,0 +1,2987 @@
+{
+ "schema": "eurotrip-familia-public/1",
+ "generatedAt": "2026-09-18T21:57:45.689Z",
+ "source": {
+  "file": "Eurotrip_itinerario.json",
+  "sha256": "0a3517b65c602be83ec31f0fd02a40707e5eee0f4263fbc8fe7c2038b66060a1"
+ },
+ "trip": {
+  "start": "2026-09-19T13:40:00-06:00",
+  "end": "2026-10-06T22:30:00-06:00",
+  "firstDay": "2026-09-20",
+  "lastDay": "2026-10-06"
+ },
+ "cities": {
+  "BUD": {
+   "name": "Budapest",
+   "country": "Hungría",
+   "flag": "🇭🇺",
+   "lat": 47.4979,
+   "lng": 19.0402,
+   "tz": "Europe/Budapest"
+  },
+  "VIE": {
+   "name": "Viena",
+   "country": "Austria",
+   "flag": "🇦🇹",
+   "lat": 48.2082,
+   "lng": 16.3738,
+   "tz": "Europe/Vienna"
+  },
+  "SZG": {
+   "name": "Salzburgo",
+   "country": "Austria",
+   "flag": "🇦🇹",
+   "lat": 47.8005,
+   "lng": 13.045,
+   "tz": "Europe/Vienna"
+  },
+  "MUC": {
+   "name": "Múnich",
+   "country": "Alemania",
+   "flag": "🇩🇪",
+   "lat": 48.1372,
+   "lng": 11.5755,
+   "tz": "Europe/Berlin"
+  },
+  "AMS": {
+   "name": "Ámsterdam",
+   "country": "Países Bajos",
+   "flag": "🇳🇱",
+   "lat": 52.3676,
+   "lng": 4.9041,
+   "tz": "Europe/Amsterdam"
+  },
+  "PAR": {
+   "name": "París",
+   "country": "Francia",
+   "flag": "🇫🇷",
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "tz": "Europe/Paris"
+  }
+ },
+ "days": [
+  {
+   "id": 1,
+   "date": "2026-09-20",
+   "city": "BUD",
+   "title": "Llegada a Budapest",
+   "items": [
+    {
+     "t": "13:40",
+     "at": "2026-09-19T13:40:00-06:00",
+     "label": "Vuelo TRC→MEX AM 105",
+     "kind": "transit",
+     "cityKey": null,
+     "transport": "flight-AM105"
+    },
+    {
+     "t": "17:05",
+     "at": "2026-09-19T17:05:00-06:00",
+     "label": "Vuelo MEX→CDG AM 005",
+     "kind": "transit",
+     "cityKey": null,
+     "transport": "flight-AM005"
+    },
+    {
+     "t": "12:10",
+     "at": "2026-09-20T12:10:00+02:00",
+     "label": "Escala en CDG · 6 h",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "18:35",
+     "at": "2026-09-20T18:35:00+02:00",
+     "label": "Vuelo CDG→BUD easyJet EJU 4685",
+     "kind": "transit",
+     "cityKey": "PAR",
+     "transport": "flight-EJU4685"
+    },
+    {
+     "t": "21:00",
+     "at": "2026-09-20T21:00:00+02:00",
+     "label": "Traslado privado a Clark Hotel",
+     "kind": "hotel",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "21:45",
+     "at": "2026-09-20T21:45:00+02:00",
+     "label": "Check-in Clark Hotel",
+     "kind": "hotel",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "22:00",
+     "at": "2026-09-20T22:00:00+02:00",
+     "label": "Puente de las Cadenas de noche",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4979,
+     "lng": 19.0402
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "date": "2026-09-21",
+   "city": "BUD",
+   "title": "Buda, Puente de las Cadenas y Pest",
+   "items": [
+    {
+     "t": "09:00",
+     "at": "2026-09-21T09:00:00+02:00",
+     "label": "Desayuno @ Cafe Brunch Budapest - Lánchíd",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "breakfast",
+     "lat": 47.4966,
+     "lng": 19.0402
+    },
+    {
+     "t": "10:00",
+     "at": "2026-09-21T10:00:00+02:00",
+     "label": "Fisherman's Bastion",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5023,
+     "lng": 19.0347
+    },
+    {
+     "t": "10:30",
+     "at": "2026-09-21T10:30:00+02:00",
+     "label": "Iglesia de Matías",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5025,
+     "lng": 19.0344
+    },
+    {
+     "t": "11:00",
+     "at": "2026-09-21T11:00:00+02:00",
+     "label": "Buda Castle",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4964,
+     "lng": 19.0397
+    },
+    {
+     "t": "12:30",
+     "at": "2026-09-21T12:30:00+02:00",
+     "label": "Budapest Castle Hill Funicular",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4989,
+     "lng": 19.0407
+    },
+    {
+     "t": "12:45",
+     "at": "2026-09-21T12:45:00+02:00",
+     "label": "Budai Castle Tunnel",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4973,
+     "lng": 19.0378
+    },
+    {
+     "t": "13:00",
+     "at": "2026-09-21T13:00:00+02:00",
+     "label": "Puente de las Cadenas",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4979,
+     "lng": 19.0402
+    },
+    {
+     "t": "13:15",
+     "at": "2026-09-21T13:15:00+02:00",
+     "label": "Gresham Palace",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4976,
+     "lng": 19.0512
+    },
+    {
+     "t": "13:30",
+     "at": "2026-09-21T13:30:00+02:00",
+     "label": "Train M1",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "13:45",
+     "at": "2026-09-21T13:45:00+02:00",
+     "label": "Lunch @ Centrál Grand Cafe & Bar",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "lunch",
+     "lat": 47.4913,
+     "lng": 19.0567
+    },
+    {
+     "t": "15:15",
+     "at": "2026-09-21T15:15:00+02:00",
+     "label": "Vaci Street",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4934,
+     "lng": 19.054
+    },
+    {
+     "t": "15:45",
+     "at": "2026-09-21T15:45:00+02:00",
+     "label": "Great Market Hall",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4864,
+     "lng": 19.0602
+    },
+    {
+     "t": "16:30",
+     "at": "2026-09-21T16:30:00+02:00",
+     "label": "Hungarian National Museum",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4913,
+     "lng": 19.0637
+    },
+    {
+     "t": "17:00",
+     "at": "2026-09-21T17:00:00+02:00",
+     "label": "Hungarian State Opera",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.503,
+     "lng": 19.0567
+    },
+    {
+     "t": "18:00",
+     "at": "2026-09-21T18:00:00+02:00",
+     "label": "Parlamento de Budapest",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.507,
+     "lng": 19.0458
+    },
+    {
+     "t": "18:30",
+     "at": "2026-09-21T18:30:00+02:00",
+     "label": "Shoes on the Danube",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5063,
+     "lng": 19.0451
+    },
+    {
+     "t": "19:10",
+     "at": "2026-09-21T19:10:00+02:00",
+     "label": "Budapest: By Night Sightseeing Cruise",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4989,
+     "lng": 19.0455
+    },
+    {
+     "t": "20:30",
+     "at": "2026-09-21T20:30:00+02:00",
+     "label": "Leo Rooftop",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "dinner",
+     "lat": 47.49775,
+     "lng": 19.0396
+    },
+    {
+     "t": "22:00",
+     "at": "2026-09-21T22:00:00+02:00",
+     "label": "Regreso al Clark Hotel",
+     "kind": "hotel",
+     "cityKey": "BUD"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "date": "2026-09-22",
+   "city": "BUD",
+   "title": "Basílica, Andrássy y City Park",
+   "items": [
+    {
+     "t": "09:30",
+     "at": "2026-09-22T09:30:00+02:00",
+     "label": "Desayuno @ Blueberry Brunch",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "breakfast",
+     "lat": 47.50249,
+     "lng": 19.05287
+    },
+    {
+     "t": "10:30",
+     "at": "2026-09-22T10:30:00+02:00",
+     "label": "St. Stephen's Basilica",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "11:30",
+     "at": "2026-09-22T11:30:00+02:00",
+     "label": "Elizabeth Square",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.4993,
+     "lng": 19.0533
+    },
+    {
+     "t": "11:50",
+     "at": "2026-09-22T11:50:00+02:00",
+     "label": "Andrássy út, Budapest, Hungary",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5062,
+     "lng": 19.0637
+    },
+    {
+     "t": "12:20",
+     "at": "2026-09-22T12:20:00+02:00",
+     "label": "Train M1 Oktogon to Hősök tere",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "12:30",
+     "at": "2026-09-22T12:30:00+02:00",
+     "label": "Heroes' Square",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5145,
+     "lng": 19.0779
+    },
+    {
+     "t": "13:00",
+     "at": "2026-09-22T13:00:00+02:00",
+     "label": "Museum of Fine Arts",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5155,
+     "lng": 19.0776
+    },
+    {
+     "t": "14:30",
+     "at": "2026-09-22T14:30:00+02:00",
+     "label": "Comer @ City Park",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "lunch",
+     "lat": 47.515,
+     "lng": 19.08
+    },
+    {
+     "t": "15:30",
+     "at": "2026-09-22T15:30:00+02:00",
+     "label": "House of Music Hungary",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5163,
+     "lng": 19.0812
+    },
+    {
+     "t": "17:00",
+     "at": "2026-09-22T17:00:00+02:00",
+     "label": "Castillo de Vajdahunyad",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5175,
+     "lng": 19.0817
+    },
+    {
+     "t": "19:00",
+     "at": "2026-09-22T19:00:00+02:00",
+     "label": "Snack @ City Park",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "dinner",
+     "lat": 47.515,
+     "lng": 19.08
+    },
+    {
+     "t": "19:30",
+     "at": "2026-09-22T19:30:00+02:00",
+     "label": "BalloonFly",
+     "kind": "activity",
+     "cityKey": "BUD",
+     "lat": 47.5157,
+     "lng": 19.0847
+    },
+    {
+     "t": "20:00",
+     "at": "2026-09-22T20:00:00+02:00",
+     "label": "Train M1 Hősök tere to Oktogon",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "20:30",
+     "at": "2026-09-22T20:30:00+02:00",
+     "label": "Cenar @ Andrássy út",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "dinner",
+     "lat": 47.504,
+     "lng": 19.062
+    },
+    {
+     "t": "22:30",
+     "at": "2026-09-22T22:30:00+02:00",
+     "label": "Regreso al Clark Hotel",
+     "kind": "hotel",
+     "cityKey": "BUD"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "date": "2026-09-23",
+   "city": "VIE",
+   "title": "Tren a Viena · Albertina y centro histórico",
+   "items": [
+    {
+     "t": "07:45",
+     "at": "2026-09-23T07:45:00+02:00",
+     "label": "Check Out y Bolt Clark → Cirkusz Budapest",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "08:15",
+     "at": "2026-09-23T08:15:00+02:00",
+     "label": "Cirkusz Budapest",
+     "kind": "meal",
+     "cityKey": "BUD",
+     "meal": "breakfast",
+     "lat": 47.4993,
+     "lng": 19.063
+    },
+    {
+     "t": "09:15",
+     "at": "2026-09-23T09:15:00+02:00",
+     "label": "Bolt Cirkusz → Keleti",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "09:30",
+     "at": "2026-09-23T09:30:00+02:00",
+     "label": "Keleti",
+     "kind": "transit",
+     "cityKey": "BUD"
+    },
+    {
+     "t": "10:30",
+     "at": "2026-09-23T10:30:00+02:00",
+     "label": "Tren EC 142 Keleti → Wien Hbf",
+     "kind": "transit",
+     "cityKey": "BUD",
+     "transport": "train-EC142"
+    },
+    {
+     "t": "13:35",
+     "at": "2026-09-23T13:35:00+02:00",
+     "label": "Tranvía D / taxi → Grand Ferdinand",
+     "kind": "transit",
+     "cityKey": "VIE"
+    },
+    {
+     "t": "13:50",
+     "at": "2026-09-23T13:50:00+02:00",
+     "label": "Grand Ferdinand · dejar maletas",
+     "kind": "hotel",
+     "cityKey": "VIE"
+    },
+    {
+     "t": "14:00",
+     "at": "2026-09-23T14:00:00+02:00",
+     "label": "Schnitzel One",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "lunch",
+     "lat": 48.20541,
+     "lng": 16.37021
+    },
+    {
+     "t": "15:00",
+     "at": "2026-09-23T15:00:00+02:00",
+     "label": "Kärntner Straße",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2047,
+     "lng": 16.3707
+    },
+    {
+     "t": "15:30",
+     "at": "2026-09-23T15:30:00+02:00",
+     "label": "Ópera Estatal",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2035,
+     "lng": 16.3691
+    },
+    {
+     "t": "16:00",
+     "at": "2026-09-23T16:00:00+02:00",
+     "label": "Albertina Modern",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2005,
+     "lng": 16.3721
+    },
+    {
+     "t": "18:00",
+     "at": "2026-09-23T18:00:00+02:00",
+     "label": "Albertina",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.205,
+     "lng": 16.3686
+    },
+    {
+     "t": "19:30",
+     "at": "2026-09-23T19:30:00+02:00",
+     "label": "Burggarten y monumento a Mozart",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2038,
+     "lng": 16.3658
+    },
+    {
+     "t": "20:00",
+     "at": "2026-09-23T20:00:00+02:00",
+     "label": "Graben y Columna de la Peste",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2086,
+     "lng": 16.3699
+    },
+    {
+     "t": "20:15",
+     "at": "2026-09-23T20:15:00+02:00",
+     "label": "Stephansplatz y Catedral de San Esteban",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2085,
+     "lng": 16.3731
+    },
+    {
+     "t": "21:00",
+     "at": "2026-09-23T21:00:00+02:00",
+     "label": "Yori Korean Dining",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "dinner",
+     "lat": 48.21072,
+     "lng": 16.3817
+    },
+    {
+     "t": "22:30",
+     "at": "2026-09-23T22:30:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "VIE"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "date": "2026-09-24",
+   "city": "VIE",
+   "title": "Belvedere, Schönbrunn, Secesión y Prater",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-09-24T08:00:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:15",
+     "at": "2026-09-24T09:15:00+02:00",
+     "label": "Tranvía D → Belvedere",
+     "kind": "transit",
+     "cityKey": "VIE"
+    },
+    {
+     "t": "10:00",
+     "at": "2026-09-24T10:00:00+02:00",
+     "label": "Palacio Belvedere Superior",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.1913,
+     "lng": 16.38
+    },
+    {
+     "t": "12:00",
+     "at": "2026-09-24T12:00:00+02:00",
+     "label": "Karlskirche & Wien Museum Karlsplatz",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.1986,
+     "lng": 16.3719
+    },
+    {
+     "t": "13:00",
+     "at": "2026-09-24T13:00:00+02:00",
+     "label": "Fine Fine all'Italiana",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "lunch",
+     "lat": 48.19624,
+     "lng": 16.3726
+    },
+    {
+     "t": "14:00",
+     "at": "2026-09-24T14:00:00+02:00",
+     "label": "U4 Karlsplatz → Schönbrunn",
+     "kind": "transit",
+     "cityKey": "VIE"
+    },
+    {
+     "t": "14:30",
+     "at": "2026-09-24T14:30:00+02:00",
+     "label": "Palacio de Schönbrunn · Grand Tour",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.1847,
+     "lng": 16.3122
+    },
+    {
+     "t": "16:00",
+     "at": "2026-09-24T16:00:00+02:00",
+     "label": "Jardines y Gloriette",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.1793,
+     "lng": 16.3122
+    },
+    {
+     "t": "17:30",
+     "at": "2026-09-24T17:30:00+02:00",
+     "label": "U4 Schönbrunn → Karlsplatz",
+     "kind": "transit",
+     "cityKey": "VIE"
+    },
+    {
+     "t": "18:00",
+     "at": "2026-09-24T18:00:00+02:00",
+     "label": "Naschmarkt",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.1985,
+     "lng": 16.3651
+    },
+    {
+     "t": "19:00",
+     "at": "2026-09-24T19:00:00+02:00",
+     "label": "Secesión de Viena",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.1997,
+     "lng": 16.3695
+    },
+    {
+     "t": "19:45",
+     "at": "2026-09-24T19:45:00+02:00",
+     "label": "Prater",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2166,
+     "lng": 16.402
+    },
+    {
+     "t": "20:30",
+     "at": "2026-09-24T20:30:00+02:00",
+     "label": "Schweizerhaus",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "dinner",
+     "lat": 48.216,
+     "lng": 16.3985
+    },
+    {
+     "t": "22:30",
+     "at": "2026-09-24T22:30:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "VIE"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "date": "2026-09-25",
+   "city": "VIE",
+   "title": "Hofburg, Motto am Fluss, Hundertwasser y MQ",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-09-25T08:00:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:15",
+     "at": "2026-09-25T09:15:00+02:00",
+     "label": "Museo Sisi / Hofburg",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2065,
+     "lng": 16.3656
+    },
+    {
+     "t": "10:30",
+     "at": "2026-09-25T10:30:00+02:00",
+     "label": "Heldenplatz y exterior de la Hofburg",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2058,
+     "lng": 16.3638
+    },
+    {
+     "t": "11:00",
+     "at": "2026-09-25T11:00:00+02:00",
+     "label": "Prunksaal · Biblioteca Nacional",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2062,
+     "lng": 16.3667
+    },
+    {
+     "t": "11:30",
+     "at": "2026-09-25T11:30:00+02:00",
+     "label": "Michaelerplatz → Kohlmarkt → Graben",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2076,
+     "lng": 16.3661
+    },
+    {
+     "t": "12:00",
+     "at": "2026-09-25T12:00:00+02:00",
+     "label": "Peterskirche · concierto de órgano",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2098,
+     "lng": 16.3706
+    },
+    {
+     "t": "13:00",
+     "at": "2026-09-25T13:00:00+02:00",
+     "label": "Comida @ Café & Restaurant Motto am Fluss",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "lunch",
+     "lat": 48.2126,
+     "lng": 16.376
+    },
+    {
+     "t": "14:30",
+     "at": "2026-09-25T14:30:00+02:00",
+     "label": "Hundertwasser House & Village",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.202,
+     "lng": 16.3944
+    },
+    {
+     "t": "15:30",
+     "at": "2026-09-25T15:30:00+02:00",
+     "label": "MuseumsQuartier",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2037,
+     "lng": 16.3599
+    },
+    {
+     "t": "15:50",
+     "at": "2026-09-25T15:50:00+02:00",
+     "label": "Mumok",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2032,
+     "lng": 16.3598
+    },
+    {
+     "t": "17:30",
+     "at": "2026-09-25T17:30:00+02:00",
+     "label": "Maria-Theresien-Platz",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2047,
+     "lng": 16.3616
+    },
+    {
+     "t": "18:30",
+     "at": "2026-09-25T18:30:00+02:00",
+     "label": "Volksgarten y Parlamento (exteriores)",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2079,
+     "lng": 16.3616
+    },
+    {
+     "t": "19:30",
+     "at": "2026-09-25T19:30:00+02:00",
+     "label": "Spittelberg",
+     "kind": "activity",
+     "cityKey": "VIE",
+     "lat": 48.2018,
+     "lng": 16.3546
+    },
+    {
+     "t": "20:30",
+     "at": "2026-09-25T20:30:00+02:00",
+     "label": "XO Grill 1070",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "dinner",
+     "lat": 48.19557,
+     "lng": 16.36018
+    },
+    {
+     "t": "22:30",
+     "at": "2026-09-25T22:30:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "VIE"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "date": "2026-09-26",
+   "city": "SZG",
+   "title": "Salzburgo de paso · noche en Múnich",
+   "items": [
+    {
+     "t": "07:30",
+     "at": "2026-09-26T07:30:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "VIE",
+     "meal": "breakfast"
+    },
+    {
+     "t": "08:30",
+     "at": "2026-09-26T08:30:00+02:00",
+     "label": "Tranvía D / taxi → Wien Hbf",
+     "kind": "transit",
+     "cityKey": "VIE"
+    },
+    {
+     "t": "09:28",
+     "at": "2026-09-26T09:28:00+02:00",
+     "label": "RJX 19952 Wien Hbf → Salzburg Hbf",
+     "kind": "transit",
+     "cityKey": "VIE",
+     "transport": "train-RJX19952"
+    },
+    {
+     "t": "12:00",
+     "at": "2026-09-26T12:00:00+02:00",
+     "label": "Lockers Salzburg Hbf",
+     "kind": "transit",
+     "cityKey": "SZG"
+    },
+    {
+     "t": "12:15",
+     "at": "2026-09-26T12:15:00+02:00",
+     "label": "Mirabell Palace & Gardens",
+     "kind": "activity",
+     "cityKey": "SZG",
+     "lat": 47.8067,
+     "lng": 13.0398
+    },
+    {
+     "t": "12:50",
+     "at": "2026-09-26T12:50:00+02:00",
+     "label": "Makartsteg → Getreidegasse → Old City Hall",
+     "kind": "activity",
+     "cityKey": "SZG",
+     "lat": 47.8003,
+     "lng": 13.0442
+    },
+    {
+     "t": "13:30",
+     "at": "2026-09-26T13:30:00+02:00",
+     "label": "Ristorante Pizzeria Magno Mozartplatz",
+     "kind": "meal",
+     "cityKey": "SZG",
+     "meal": "lunch",
+     "lat": 47.7987,
+     "lng": 13.0463
+    },
+    {
+     "t": "14:35",
+     "at": "2026-09-26T14:35:00+02:00",
+     "label": "Mozartplatz y Residenzplatz",
+     "kind": "activity",
+     "cityKey": "SZG",
+     "lat": 47.7986,
+     "lng": 13.0447
+    },
+    {
+     "t": "14:50",
+     "at": "2026-09-26T14:50:00+02:00",
+     "label": "Catedral de Salzburgo",
+     "kind": "activity",
+     "cityKey": "SZG",
+     "lat": 47.7969,
+     "lng": 13.0459
+    },
+    {
+     "t": "15:20",
+     "at": "2026-09-26T15:20:00+02:00",
+     "label": "Cementerio y Abadía de San Pedro",
+     "kind": "activity",
+     "cityKey": "SZG",
+     "lat": 47.7975,
+     "lng": 13.0442
+    },
+    {
+     "t": "15:40",
+     "at": "2026-09-26T15:40:00+02:00",
+     "label": "Hohensalzburg · funicular + fortaleza",
+     "kind": "activity",
+     "cityKey": "SZG",
+     "lat": 47.7952,
+     "lng": 13.0466
+    },
+    {
+     "t": "17:05",
+     "at": "2026-09-26T17:05:00+02:00",
+     "label": "Café Fürst · Mozartkugel original",
+     "kind": "meal",
+     "cityKey": "SZG",
+     "meal": "snack",
+     "lat": 47.79912,
+     "lng": 13.04556
+    },
+    {
+     "t": "17:35",
+     "at": "2026-09-26T17:35:00+02:00",
+     "label": "Recoger equipaje en lockers",
+     "kind": "transit",
+     "cityKey": "SZG"
+    },
+    {
+     "t": "18:04",
+     "at": "2026-09-26T18:04:00+02:00",
+     "label": "ICE 1212 Salzburg → München Hbf",
+     "kind": "transit",
+     "cityKey": "SZG",
+     "transport": "train-ICE1212"
+    },
+    {
+     "t": "20:05",
+     "at": "2026-09-26T20:05:00+02:00",
+     "label": "Check-in NH Collection München Bavaria",
+     "kind": "hotel",
+     "cityKey": "SZG"
+    },
+    {
+     "t": "20:45",
+     "at": "2026-09-26T20:45:00+02:00",
+     "label": "Augustiner-Keller (biergarten)",
+     "kind": "meal",
+     "cityKey": "SZG",
+     "meal": "dinner",
+     "lat": 48.1433,
+     "lng": 11.5535
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "date": "2026-09-27",
+   "city": "MUC",
+   "title": "Altstadt, Deutsches Museum y Oktoberfest",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-09-27T08:00:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:00",
+     "at": "2026-09-27T09:00:00+02:00",
+     "label": "Frauenkirche",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1386,
+     "lng": 11.5737
+    },
+    {
+     "t": "09:30",
+     "at": "2026-09-27T09:30:00+02:00",
+     "label": "Marienplatz y Neues Rathaus",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1374,
+     "lng": 11.5755
+    },
+    {
+     "t": "10:00",
+     "at": "2026-09-27T10:00:00+02:00",
+     "label": "Torre de Alter Peter",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1361,
+     "lng": 11.5762
+    },
+    {
+     "t": "11:00",
+     "at": "2026-09-27T11:00:00+02:00",
+     "label": "Glockenspiel (función 11:00)",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1374,
+     "lng": 11.5755
+    },
+    {
+     "t": "11:20",
+     "at": "2026-09-27T11:20:00+02:00",
+     "label": "St. Michael → Feldherrnhalle → Theatinerkirche → Hofgarten",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1412,
+     "lng": 11.5773
+    },
+    {
+     "t": "12:00",
+     "at": "2026-09-27T12:00:00+02:00",
+     "label": "Hans im Glück",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "lunch",
+     "lat": 48.14399,
+     "lng": 11.56292
+    },
+    {
+     "t": "13:30",
+     "at": "2026-09-27T13:30:00+02:00",
+     "label": "Deutsches Museum",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1299,
+     "lng": 11.5836
+    },
+    {
+     "t": "16:30",
+     "at": "2026-09-27T16:30:00+02:00",
+     "label": "Traslado Theresienwiese",
+     "kind": "transit",
+     "cityKey": "MUC"
+    },
+    {
+     "t": "17:00",
+     "at": "2026-09-27T17:00:00+02:00",
+     "label": "Oktoberfest",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1319,
+     "lng": 11.5497
+    },
+    {
+     "t": "17:00",
+     "at": "2026-09-27T17:00:00+02:00",
+     "label": "Cena @ Theresienwiese (Best Döner & Falafel)",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "dinner",
+     "lat": 48.1319,
+     "lng": 11.5497
+    },
+    {
+     "t": "21:30",
+     "at": "2026-09-27T21:30:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "MUC"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "date": "2026-09-28",
+   "city": "MUC",
+   "title": "Viktualienmarkt, Residenz y English Garden",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-09-28T08:00:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:00",
+     "at": "2026-09-28T09:00:00+02:00",
+     "label": "Viktualienmarkt · Café Frischhut",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1351,
+     "lng": 11.5761
+    },
+    {
+     "t": "09:45",
+     "at": "2026-09-28T09:45:00+02:00",
+     "label": "Asamkirche",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1354,
+     "lng": 11.5716
+    },
+    {
+     "t": "10:30",
+     "at": "2026-09-28T10:30:00+02:00",
+     "label": "Residenz de Múnich · museo y Tesoro",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1418,
+     "lng": 11.5794
+    },
+    {
+     "t": "13:00",
+     "at": "2026-09-28T13:00:00+02:00",
+     "label": "Five Guys, Neuhauser Str. 1",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "lunch",
+     "lat": 48.1379,
+     "lng": 11.5717
+    },
+    {
+     "t": "14:00",
+     "at": "2026-09-28T14:00:00+02:00",
+     "label": "Cuvilliés Theatre",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1408,
+     "lng": 11.5787
+    },
+    {
+     "t": "14:30",
+     "at": "2026-09-28T14:30:00+02:00",
+     "label": "Hofgarten · Dianatempel",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1434,
+     "lng": 11.5789
+    },
+    {
+     "t": "15:00",
+     "at": "2026-09-28T15:00:00+02:00",
+     "label": "English Garden · Eisbach",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1436,
+     "lng": 11.5859
+    },
+    {
+     "t": "15:30",
+     "at": "2026-09-28T15:30:00+02:00",
+     "label": "Monopteros im Englischen Garten",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.159,
+     "lng": 11.5966
+    },
+    {
+     "t": "16:00",
+     "at": "2026-09-28T16:00:00+02:00",
+     "label": "Dinatale Cafe",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "snack",
+     "lat": 48.15016,
+     "lng": 11.58308
+    },
+    {
+     "t": "16:30",
+     "at": "2026-09-28T16:30:00+02:00",
+     "label": "Chinesischer Turm Biergarten",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "snack",
+     "lat": 48.1522,
+     "lng": 11.592
+    },
+    {
+     "t": "17:30",
+     "at": "2026-09-28T17:30:00+02:00",
+     "label": "Maximilianstraße → Marienplatz → Kaufingerstraße",
+     "kind": "activity",
+     "cityKey": "MUC",
+     "lat": 48.1391,
+     "lng": 11.582
+    },
+    {
+     "t": "20:00",
+     "at": "2026-09-28T20:00:00+02:00",
+     "label": "Münchner Stubn",
+     "kind": "meal",
+     "cityKey": "MUC",
+     "meal": "dinner",
+     "lat": 48.14,
+     "lng": 11.559
+    },
+    {
+     "t": "21:00",
+     "at": "2026-09-28T21:00:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "MUC"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "date": "2026-09-29",
+   "city": "AMS",
+   "title": "Vuelo a Ámsterdam · De Pijp, centro y Vondelpark",
+   "items": [
+    {
+     "t": "04:00",
+     "at": "2026-09-29T04:00:00+02:00",
+     "label": "Check - Out",
+     "kind": "hotel",
+     "cityKey": "MUC"
+    },
+    {
+     "t": "04:32",
+     "at": "2026-09-29T04:32:00+02:00",
+     "label": "S8 → Aeropuerto MUC",
+     "kind": "transit",
+     "cityKey": "MUC"
+    },
+    {
+     "t": "05:15",
+     "at": "2026-09-29T05:15:00+02:00",
+     "label": "Check In MUC",
+     "kind": "transit",
+     "cityKey": "MUC"
+    },
+    {
+     "t": "07:00",
+     "at": "2026-09-29T07:00:00+02:00",
+     "label": "Vuelo KL 1848 MUC→AMS",
+     "kind": "transit",
+     "cityKey": "MUC",
+     "transport": "flight-KL1848"
+    },
+    {
+     "t": "09:00",
+     "at": "2026-09-29T09:00:00+02:00",
+     "label": "Tren Schiphol → Amsterdam Zuid + metro 52 → De Pijp",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "09:45",
+     "at": "2026-09-29T09:45:00+02:00",
+     "label": "Sir Albert · dejar maletas",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "10:00",
+     "at": "2026-09-29T10:00:00+02:00",
+     "label": "Bakers & Roasters",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "breakfast",
+     "lat": 52.35732,
+     "lng": 4.88986
+    },
+    {
+     "t": "11:15",
+     "at": "2026-09-29T11:15:00+02:00",
+     "label": "Albert Cuyp Market · Rudi’s Stroopwafels",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3555,
+     "lng": 4.8926
+    },
+    {
+     "t": "12:00",
+     "at": "2026-09-29T12:00:00+02:00",
+     "label": "Rokin",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3696,
+     "lng": 4.8925
+    },
+    {
+     "t": "12:15",
+     "at": "2026-09-29T12:15:00+02:00",
+     "label": "Palacio Real",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3731,
+     "lng": 4.8912
+    },
+    {
+     "t": "13:30",
+     "at": "2026-09-29T13:30:00+02:00",
+     "label": "Dam Square · Monumento Nacional · Nieuwe Kerk",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3731,
+     "lng": 4.8926
+    },
+    {
+     "t": "13:45",
+     "at": "2026-09-29T13:45:00+02:00",
+     "label": "Begijnhof",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3697,
+     "lng": 4.8907
+    },
+    {
+     "t": "14:10",
+     "at": "2026-09-29T14:10:00+02:00",
+     "label": "Nine Streets",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3672,
+     "lng": 4.8853
+    },
+    {
+     "t": "14:50",
+     "at": "2026-09-29T14:50:00+02:00",
+     "label": "Houseboat Museum",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3652,
+     "lng": 4.8834
+    },
+    {
+     "t": "15:30",
+     "at": "2026-09-29T15:30:00+02:00",
+     "label": "Jordaan · Westerkerk exterior",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3745,
+     "lng": 4.8838
+    },
+    {
+     "t": "15:45",
+     "at": "2026-09-29T15:45:00+02:00",
+     "label": "Snack @ Winkel 43 Apple Pie",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "snack",
+     "lat": 52.3799,
+     "lng": 4.8865
+    },
+    {
+     "t": "16:20",
+     "at": "2026-09-29T16:20:00+02:00",
+     "label": "Black Bikes · Leidseplein",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "16:40",
+     "at": "2026-09-29T16:40:00+02:00",
+     "label": "Vondelpark en bicicleta",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3579,
+     "lng": 4.8686
+    },
+    {
+     "t": "17:35",
+     "at": "2026-09-29T17:35:00+02:00",
+     "label": "Casas de los Siete Países · Vondelkerk",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.36,
+     "lng": 4.873
+    },
+    {
+     "t": "17:50",
+     "at": "2026-09-29T17:50:00+02:00",
+     "label": "Devolver bicicletas",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "18:15",
+     "at": "2026-09-29T18:15:00+02:00",
+     "label": "Sir Albert · Check-in",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "19:40",
+     "at": "2026-09-29T19:40:00+02:00",
+     "label": "Traslado a De Hallen",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "20:00",
+     "at": "2026-09-29T20:00:00+02:00",
+     "label": "De Hallen",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "dinner",
+     "lat": 52.3672,
+     "lng": 4.8686
+    },
+    {
+     "t": "20:30",
+     "at": "2026-09-29T20:30:00+02:00",
+     "label": "Cena @ Foodhallen",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "dinner",
+     "lat": 52.3656,
+     "lng": 4.8687
+    },
+    {
+     "t": "22:00",
+     "at": "2026-09-29T22:00:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "date": "2026-09-30",
+   "city": "AMS",
+   "title": "Museumplein, canales, NEMO y bote",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-09-30T08:00:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:00",
+     "at": "2026-09-30T09:00:00+02:00",
+     "label": "Rijksmuseum",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.36,
+     "lng": 4.8852
+    },
+    {
+     "t": "10:45",
+     "at": "2026-09-30T10:45:00+02:00",
+     "label": "Back to Black",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3583,
+     "lng": 4.8811
+    },
+    {
+     "t": "11:00",
+     "at": "2026-09-30T11:00:00+02:00",
+     "label": "Van Gogh Museum",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3584,
+     "lng": 4.8811
+    },
+    {
+     "t": "12:50",
+     "at": "2026-09-30T12:50:00+02:00",
+     "label": "Zero Zero Sandwich",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "lunch",
+     "lat": 52.3651,
+     "lng": 4.89036
+    },
+    {
+     "t": "13:35",
+     "at": "2026-09-30T13:35:00+02:00",
+     "label": "Munttoren · Torre de la Moneda",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3667,
+     "lng": 4.8907
+    },
+    {
+     "t": "13:45",
+     "at": "2026-09-30T13:45:00+02:00",
+     "label": "Bloemenmarkt · mercado flotante de flores",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3662,
+     "lng": 4.8906
+    },
+    {
+     "t": "14:05",
+     "at": "2026-09-30T14:05:00+02:00",
+     "label": "Río Amstel",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3646,
+     "lng": 4.8977
+    },
+    {
+     "t": "14:15",
+     "at": "2026-09-30T14:15:00+02:00",
+     "label": "Blauwbrug · Casas Bailarinas",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.367,
+     "lng": 4.9022
+    },
+    {
+     "t": "14:30",
+     "at": "2026-09-30T14:30:00+02:00",
+     "label": "Staalmeestersbrug · Puente de Monet",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3688,
+     "lng": 4.9007
+    },
+    {
+     "t": "14:40",
+     "at": "2026-09-30T14:40:00+02:00",
+     "label": "Waterlooplein",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3675,
+     "lng": 4.9012
+    },
+    {
+     "t": "14:55",
+     "at": "2026-09-30T14:55:00+02:00",
+     "label": "Barrio judío",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3667,
+     "lng": 4.9028
+    },
+    {
+     "t": "15:15",
+     "at": "2026-09-30T15:15:00+02:00",
+     "label": "Caminata hacia NEMO",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "15:30",
+     "at": "2026-09-30T15:30:00+02:00",
+     "label": "NEMO Science Museum",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3739,
+     "lng": 4.9124
+    },
+    {
+     "t": "17:00",
+     "at": "2026-09-30T17:00:00+02:00",
+     "label": "Salida de NEMO",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "17:20",
+     "at": "2026-09-30T17:20:00+02:00",
+     "label": "Casa más pequeña · Oude Hoogstraat 22",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3717,
+     "lng": 4.9002
+    },
+    {
+     "t": "17:30",
+     "at": "2026-09-30T17:30:00+02:00",
+     "label": "De Waag · Casa del Peso",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3724,
+     "lng": 4.9004
+    },
+    {
+     "t": "17:40",
+     "at": "2026-09-30T17:40:00+02:00",
+     "label": "Barrio chino · Zeedijk",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3745,
+     "lng": 4.9004
+    },
+    {
+     "t": "17:55",
+     "at": "2026-09-30T17:55:00+02:00",
+     "label": "Barrio Rojo · De Wallen",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3739,
+     "lng": 4.8994
+    },
+    {
+     "t": "18:25",
+     "at": "2026-09-30T18:25:00+02:00",
+     "label": "Nieuwe Kerk · exterior",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3735,
+     "lng": 4.8926
+    },
+    {
+     "t": "18:30",
+     "at": "2026-09-30T18:30:00+02:00",
+     "label": "Palacio Real · exterior",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3731,
+     "lng": 4.8912
+    },
+    {
+     "t": "18:35",
+     "at": "2026-09-30T18:35:00+02:00",
+     "label": "Monumento Nacional",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3727,
+     "lng": 4.893
+    },
+    {
+     "t": "18:45",
+     "at": "2026-09-30T18:45:00+02:00",
+     "label": "Caminata a Amsterdam Centraal",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "19:00",
+     "at": "2026-09-30T19:00:00+02:00",
+     "label": "Paseo en barco abierto · Flagship",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.374,
+     "lng": 4.8897
+    },
+    {
+     "t": "20:00",
+     "at": "2026-09-30T20:00:00+02:00",
+     "label": "Fin del paseo",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "20:15",
+     "at": "2026-09-30T20:15:00+02:00",
+     "label": "Caminata o taxi a De Belhamel",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "20:30",
+     "at": "2026-09-30T20:30:00+02:00",
+     "label": "Restaurant Heemelrijck Centrum",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "dinner",
+     "lat": 52.3663,
+     "lng": 4.8952
+    },
+    {
+     "t": "22:30",
+     "at": "2026-09-30T22:30:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "date": "2026-10-01",
+   "city": "AMS",
+   "title": "Pueblos, A’DAM Lookout y Loetje",
+   "items": [
+    {
+     "t": "07:45",
+     "at": "2026-10-01T07:45:00+02:00",
+     "label": "Desayuno en el hotel",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "breakfast"
+    },
+    {
+     "t": "08:40",
+     "at": "2026-10-01T08:40:00+02:00",
+     "label": "Metro 52 De Pijp → Centraal",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "09:05",
+     "at": "2026-10-01T09:05:00+02:00",
+     "label": "Caminar a De Ruijterkade 153",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "09:10",
+     "at": "2026-10-01T09:10:00+02:00",
+     "label": "Punto de encuentro Civitatis",
+     "kind": "transit",
+     "cityKey": "AMS",
+     "lat": 52.3789,
+     "lng": 4.9027
+    },
+    {
+     "t": "09:30",
+     "at": "2026-10-01T09:30:00+02:00",
+     "label": "Salida del tour",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "10:00",
+     "at": "2026-10-01T10:00:00+02:00",
+     "label": "Zaanse Schans",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.4747,
+     "lng": 4.8175
+    },
+    {
+     "t": "11:30",
+     "at": "2026-10-01T11:30:00+02:00",
+     "label": "Traslado hacia Edam",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "12:00",
+     "at": "2026-10-01T12:00:00+02:00",
+     "label": "Edam",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.5125,
+     "lng": 5.0364
+    },
+    {
+     "t": "13:10",
+     "at": "2026-10-01T13:10:00+02:00",
+     "label": "Volendam",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.4964,
+     "lng": 5.0711
+    },
+    {
+     "t": "13:30",
+     "at": "2026-10-01T13:30:00+02:00",
+     "label": "De Lunch",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "lunch",
+     "lat": 52.4964,
+     "lng": 5.0711
+    },
+    {
+     "t": "14:45",
+     "at": "2026-10-01T14:45:00+02:00",
+     "label": "Puerto y paseo por Volendam",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.4964,
+     "lng": 5.0711
+    },
+    {
+     "t": "15:30",
+     "at": "2026-10-01T15:30:00+02:00",
+     "label": "Ferry o traslado a Marken",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "16:00",
+     "at": "2026-10-01T16:00:00+02:00",
+     "label": "Marken",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.4569,
+     "lng": 5.1075
+    },
+    {
+     "t": "17:00",
+     "at": "2026-10-01T17:00:00+02:00",
+     "label": "Salida hacia Ámsterdam",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "17:30",
+     "at": "2026-10-01T17:30:00+02:00",
+     "label": "Regreso estimado del tour",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "17:45",
+     "at": "2026-10-01T17:45:00+02:00",
+     "label": "Café o paseo breve por la ribera del IJ",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "18:30",
+     "at": "2026-10-01T18:30:00+02:00",
+     "label": "Ferry a Buiksloterweg",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "18:45",
+     "at": "2026-10-01T18:45:00+02:00",
+     "label": "Llegada y registro @ A’DAM",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "19:00",
+     "at": "2026-10-01T19:00:00+02:00",
+     "label": "A’DAM Lookout y columpio",
+     "kind": "activity",
+     "cityKey": "AMS",
+     "lat": 52.3838,
+     "lng": 4.9004
+    },
+    {
+     "t": "20:15",
+     "at": "2026-10-01T20:15:00+02:00",
+     "label": "Cena Centraal @ Loetje",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "dinner",
+     "lat": 52.3785,
+     "lng": 4.9
+    },
+    {
+     "t": "21:30",
+     "at": "2026-10-01T21:30:00+02:00",
+     "label": "Regreso al hotel",
+     "kind": "hotel",
+     "cityKey": "AMS"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "date": "2026-10-02",
+   "city": "PAR",
+   "title": "Eurostar · Arco, Trocadéro y crucero por el Sena",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-10-02T08:00:00+02:00",
+     "label": "Desayuno rápido · Airbnb",
+     "kind": "meal",
+     "cityKey": "AMS",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:45",
+     "at": "2026-10-02T09:45:00+02:00",
+     "label": "Taxi → Amsterdam Centraal",
+     "kind": "transit",
+     "cityKey": "AMS"
+    },
+    {
+     "t": "11:10",
+     "at": "2026-10-02T11:10:00+02:00",
+     "label": "Eurostar 9340 → Paris Gare du Nord",
+     "kind": "transit",
+     "cityKey": "AMS",
+     "transport": "train-Eurostar9340"
+    },
+    {
+     "t": "14:45",
+     "at": "2026-10-02T14:45:00+02:00",
+     "label": "Taxi oficial Gare du Nord → Airbnb",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "15:30",
+     "at": "2026-10-02T15:30:00+02:00",
+     "label": "Check-in Airbnb · 102 Champs-Élysées",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "16:00",
+     "at": "2026-10-02T16:00:00+02:00",
+     "label": "Monoprix Élysées",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "17:00",
+     "at": "2026-10-02T17:00:00+02:00",
+     "label": "Caminar al Arco del Triunfo",
+     "kind": "transit",
+     "cityKey": "PAR",
+     "lat": 48.8738,
+     "lng": 2.295
+    },
+    {
+     "t": "17:30",
+     "at": "2026-10-02T17:30:00+02:00",
+     "label": "Metro 6 hacia Trocadéro",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "17:50",
+     "at": "2026-10-02T17:50:00+02:00",
+     "label": "Fotografías en Trocadéro",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8629,
+     "lng": 2.2877
+    },
+    {
+     "t": "18:15",
+     "at": "2026-10-02T18:15:00+02:00",
+     "label": "Caminata hacia Port de la Conférence",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "18:30",
+     "at": "2026-10-02T18:30:00+02:00",
+     "label": "Llegada y embarque",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "19:00",
+     "at": "2026-10-02T19:00:00+02:00",
+     "label": "Crucero",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8635,
+     "lng": 2.3006
+    },
+    {
+     "t": "20:00",
+     "at": "2026-10-02T20:00:00+02:00",
+     "label": "Fin del crucero",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "20:30",
+     "at": "2026-10-02T20:30:00+02:00",
+     "label": "Cena Le Bizetro",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "dinner",
+     "lat": 48.866,
+     "lng": 2.2985
+    },
+    {
+     "t": "22:30",
+     "at": "2026-10-02T22:30:00+02:00",
+     "label": "Regreso Airbnb",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "date": "2026-10-03",
+   "city": "PAR",
+   "title": "Louvre, Angelina, Orsay y Lafayette",
+   "items": [
+    {
+     "t": "08:30",
+     "at": "2026-10-03T08:30:00+02:00",
+     "label": "Desayuno en Airbnb",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:20",
+     "at": "2026-10-03T09:20:00+02:00",
+     "label": "Metro al Louvre",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "09:45",
+     "at": "2026-10-03T09:45:00+02:00",
+     "label": "Palais-Royal",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8641,
+     "lng": 2.3374
+    },
+    {
+     "t": "10:10",
+     "at": "2026-10-03T10:10:00+02:00",
+     "label": "Check-in del tour",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "10:30",
+     "at": "2026-10-03T10:30:00+02:00",
+     "label": "Tour guiado del Louvre @ Arco del Triunfo del Carrusel del Louvre",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8606,
+     "lng": 2.3376
+    },
+    {
+     "t": "13:15",
+     "at": "2026-10-03T13:15:00+02:00",
+     "label": "Comida @ Angelina",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "lunch",
+     "lat": 48.8649,
+     "lng": 2.3284
+    },
+    {
+     "t": "14:15",
+     "at": "2026-10-03T14:15:00+02:00",
+     "label": "Tullerías",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8635,
+     "lng": 2.3275
+    },
+    {
+     "t": "14:40",
+     "at": "2026-10-03T14:40:00+02:00",
+     "label": "Passerelle Senghor",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.86,
+     "lng": 2.3266
+    },
+    {
+     "t": "15:00",
+     "at": "2026-10-03T15:00:00+02:00",
+     "label": "Musée d’Orsay",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.86,
+     "lng": 2.3266
+    },
+    {
+     "t": "17:15",
+     "at": "2026-10-03T17:15:00+02:00",
+     "label": "Salida de Orsay",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "17:40",
+     "at": "2026-10-03T17:40:00+02:00",
+     "label": "Place Vendôme",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8683,
+     "lng": 2.3292
+    },
+    {
+     "t": "18:00",
+     "at": "2026-10-03T18:00:00+02:00",
+     "label": "Palais Garnier exterior",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8719,
+     "lng": 2.3316
+    },
+    {
+     "t": "18:20",
+     "at": "2026-10-03T18:20:00+02:00",
+     "label": "Galeries Lafayette",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8737,
+     "lng": 2.3323
+    },
+    {
+     "t": "19:45",
+     "at": "2026-10-03T19:45:00+02:00",
+     "label": "Salida",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "20:15",
+     "at": "2026-10-03T20:15:00+02:00",
+     "label": "Cena @ Lou Cantou",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "dinner",
+     "lat": 48.8741,
+     "lng": 2.3338
+    },
+    {
+     "t": "22:30",
+     "at": "2026-10-03T22:30:00+02:00",
+     "label": "Regreso Airbnb",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "date": "2026-10-04",
+   "city": "PAR",
+   "title": "Montmartre, El Principito, Torre Eiffel y Catacumbas",
+   "items": [
+    {
+     "t": "07:00",
+     "at": "2026-10-04T07:00:00+02:00",
+     "label": "Desayuno en Airbnb",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "breakfast"
+    },
+    {
+     "t": "07:45",
+     "at": "2026-10-04T07:45:00+02:00",
+     "label": "Metro Étoile → Anvers",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "08:15",
+     "at": "2026-10-04T08:15:00+02:00",
+     "label": "Sacré-Cœur",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8867,
+     "lng": 2.3431
+    },
+    {
+     "t": "08:50",
+     "at": "2026-10-04T08:50:00+02:00",
+     "label": "Place du Tertre",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8865,
+     "lng": 2.3405
+    },
+    {
+     "t": "09:05",
+     "at": "2026-10-04T09:05:00+02:00",
+     "label": "Rue de l’Abreuvoir · Maison Rose",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8878,
+     "lng": 2.339
+    },
+    {
+     "t": "09:30",
+     "at": "2026-10-04T09:30:00+02:00",
+     "label": "Abbesses",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8842,
+     "lng": 2.3384
+    },
+    {
+     "t": "09:55",
+     "at": "2026-10-04T09:55:00+02:00",
+     "label": "Moulin Rouge",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8841,
+     "lng": 2.3322
+    },
+    {
+     "t": "10:10",
+     "at": "2026-10-04T10:10:00+02:00",
+     "label": "Metro hacia Atelier",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "10:40",
+     "at": "2026-10-04T10:40:00+02:00",
+     "label": "Llegada al Atelier",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "11:00",
+     "at": "2026-10-04T11:00:00+02:00",
+     "label": "The Little Prince at the Atelier des Lumières",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8567,
+     "lng": 2.3766
+    },
+    {
+     "t": "12:10",
+     "at": "2026-10-04T12:10:00+02:00",
+     "label": "Metro hacia Trocadéro",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "13:00",
+     "at": "2026-10-04T13:00:00+02:00",
+     "label": "Comida @ Francette",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "lunch",
+     "lat": 48.857,
+     "lng": 2.2915
+    },
+    {
+     "t": "14:20",
+     "at": "2026-10-04T14:20:00+02:00",
+     "label": "Trocadéro → Pont d’Iéna",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "15:10",
+     "at": "2026-10-04T15:10:00+02:00",
+     "label": "Llegar a 6 av. G. Eiffel ave Eiffel 75007",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "15:30",
+     "at": "2026-10-04T15:30:00+02:00",
+     "label": "Torre Eiffel",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8584,
+     "lng": 2.2945
+    },
+    {
+     "t": "17:45",
+     "at": "2026-10-04T17:45:00+02:00",
+     "label": "Salida estimada",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "18:05",
+     "at": "2026-10-04T18:05:00+02:00",
+     "label": "Metro hacia Denfert-Rochereau",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "18:45",
+     "at": "2026-10-04T18:45:00+02:00",
+     "label": "Llegada y margen de seguridad",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "19:00",
+     "at": "2026-10-04T19:00:00+02:00",
+     "label": "Catacumbas",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8422,
+     "lng": 2.3325
+    },
+    {
+     "t": "20:30",
+     "at": "2026-10-04T20:30:00+02:00",
+     "label": "Cena @ Il Gigolo",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "dinner",
+     "lat": 48.8531,
+     "lng": 2.3454
+    },
+    {
+     "t": "22:30",
+     "at": "2026-10-04T22:30:00+02:00",
+     "label": "Regreso Airbnb",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "date": "2026-10-05",
+   "city": "PAR",
+   "title": "Île de la Cité, Panteón, Luxemburgo, Bonnie y Marais",
+   "items": [
+    {
+     "t": "08:00",
+     "at": "2026-10-05T08:00:00+02:00",
+     "label": "Desayuno en Airbnb",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "breakfast"
+    },
+    {
+     "t": "09:05",
+     "at": "2026-10-05T09:05:00+02:00",
+     "label": "Metro George V → Châtelet",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "09:45",
+     "at": "2026-10-05T09:45:00+02:00",
+     "label": "Sainte-Chapelle",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8554,
+     "lng": 2.345
+    },
+    {
+     "t": "10:50",
+     "at": "2026-10-05T10:50:00+02:00",
+     "label": "Notre-Dame",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.853,
+     "lng": 2.3499
+    },
+    {
+     "t": "11:45",
+     "at": "2026-10-05T11:45:00+02:00",
+     "label": "Île Saint-Louis",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8514,
+     "lng": 2.3565
+    },
+    {
+     "t": "12:10",
+     "at": "2026-10-05T12:10:00+02:00",
+     "label": "Salida hacia el Panteón",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "12:35",
+     "at": "2026-10-05T12:35:00+02:00",
+     "label": "Panteón",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8462,
+     "lng": 2.3464
+    },
+    {
+     "t": "13:30",
+     "at": "2026-10-05T13:30:00+02:00",
+     "label": "Sorbona exterior",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8489,
+     "lng": 2.3438
+    },
+    {
+     "t": "13:45",
+     "at": "2026-10-05T13:45:00+02:00",
+     "label": "Comida @ Café Madame",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "lunch",
+     "lat": 48.8487,
+     "lng": 2.333
+    },
+    {
+     "t": "15:00",
+     "at": "2026-10-05T15:00:00+02:00",
+     "label": "Jardines de Luxemburgo",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8462,
+     "lng": 2.3372
+    },
+    {
+     "t": "15:50",
+     "at": "2026-10-05T15:50:00+02:00",
+     "label": "Saint-Sulpice",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8514,
+     "lng": 2.3342
+    },
+    {
+     "t": "16:30",
+     "at": "2026-10-05T16:30:00+02:00",
+     "label": "Metro hacia Châtelet",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "16:45",
+     "at": "2026-10-05T16:45:00+02:00",
+     "label": "Hôtel de Ville",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8566,
+     "lng": 2.3522
+    },
+    {
+     "t": "17:05",
+     "at": "2026-10-05T17:05:00+02:00",
+     "label": "Centre Pompidou exterior",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8607,
+     "lng": 2.3522
+    },
+    {
+     "t": "17:35",
+     "at": "2026-10-05T17:35:00+02:00",
+     "label": "L’Éclair de Génie",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "snack",
+     "lat": 48.8564,
+     "lng": 2.3602
+    },
+    {
+     "t": "18:15",
+     "at": "2026-10-05T18:15:00+02:00",
+     "label": "Bonnie",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "snack",
+     "lat": 48.8501,
+     "lng": 2.3642
+    },
+    {
+     "t": "19:30",
+     "at": "2026-10-05T19:30:00+02:00",
+     "label": "Place des Vosges y Marais",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8556,
+     "lng": 2.3654
+    },
+    {
+     "t": "20:30",
+     "at": "2026-10-05T20:30:00+02:00",
+     "label": "Cena @ Riviera Fuga",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "dinner",
+     "lat": 48.8634,
+     "lng": 2.3135
+    },
+    {
+     "t": "20:30",
+     "at": "2026-10-05T20:30:00+02:00",
+     "label": "Regreso Airbnb",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "date": "2026-10-06",
+   "city": "PAR",
+   "title": "Regreso a México",
+   "items": [
+    {
+     "t": "07:35",
+     "at": "2026-10-06T07:35:00+02:00",
+     "label": "Desayuno @ Moka Brunch & Coffee - Champs Elysées",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "breakfast",
+     "lat": 48.8713,
+     "lng": 2.3068
+    },
+    {
+     "t": "08:30",
+     "at": "2026-10-06T08:30:00+02:00",
+     "label": "Terminar de empacar",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "09:15",
+     "at": "2026-10-06T09:15:00+02:00",
+     "label": "Último paseo por Champs-Élysées",
+     "kind": "activity",
+     "cityKey": "PAR",
+     "lat": 48.8698,
+     "lng": 2.3078
+    },
+    {
+     "t": "09:30",
+     "at": "2026-10-06T09:30:00+02:00",
+     "label": "Ladurée Champs-Élysées",
+     "kind": "meal",
+     "cityKey": "PAR",
+     "meal": "breakfast",
+     "lat": 48.8714,
+     "lng": 2.3033
+    },
+    {
+     "t": "10:10",
+     "at": "2026-10-06T10:10:00+02:00",
+     "label": "Check Out - Recoger equipaje",
+     "kind": "hotel",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "10:30",
+     "at": "2026-10-06T10:30:00+02:00",
+     "label": "Taxi / Metro oficial hacia CDG",
+     "kind": "transit",
+     "cityKey": "PAR",
+     "lat": 49.00972,
+     "lng": 2.54778
+    },
+    {
+     "t": "11:30",
+     "at": "2026-10-06T11:30:00+02:00",
+     "label": "Llegada estimada al aeropuerto",
+     "kind": "transit",
+     "cityKey": "PAR"
+    },
+    {
+     "t": "14:55",
+     "at": "2026-10-06T14:55:00+02:00",
+     "label": "Vuelo CDG → MEX",
+     "kind": "transit",
+     "cityKey": "PAR",
+     "transport": "flight-AM006"
+    },
+    {
+     "t": "20:45",
+     "at": "2026-10-06T20:45:00-06:00",
+     "label": "Vuelo MEX → TRC",
+     "kind": "transit",
+     "cityKey": null,
+     "transport": "flight-AM108"
+    }
+   ]
+  }
+ ],
+ "transport": [
+  {
+   "id": "flight-AM105",
+   "kind": "flight",
+   "operator": "Aeroméxico",
+   "number": "AM 105",
+   "from": {
+    "label": "Torreón",
+    "code": "TRC",
+    "cityKey": null,
+    "tz": "America/Monterrey",
+    "lat": 25.5683,
+    "lng": -103.4108
+   },
+   "to": {
+    "label": "Ciudad de México",
+    "code": "MEX",
+    "cityKey": null,
+    "tz": "America/Mexico_City",
+    "lat": 19.4363,
+    "lng": -99.0721
+   },
+   "departure": "2026-09-19T13:40:00-06:00",
+   "arrival": "2026-09-19T15:25:00-06:00",
+   "familyLabel": "Vuelo Aeroméxico AM 105"
+  },
+  {
+   "id": "flight-AM005",
+   "kind": "flight",
+   "operator": "Aeroméxico",
+   "number": "AM 005",
+   "from": {
+    "label": "Ciudad de México",
+    "code": "MEX",
+    "cityKey": null,
+    "tz": "America/Mexico_City",
+    "lat": 19.4363,
+    "lng": -99.0721
+   },
+   "to": {
+    "label": "París Charles de Gaulle",
+    "code": "CDG",
+    "cityKey": "PAR",
+    "tz": "Europe/Paris",
+    "lat": 49.0097,
+    "lng": 2.5479
+   },
+   "departure": "2026-09-19T17:05:00-06:00",
+   "arrival": "2026-09-20T12:10:00+02:00",
+   "familyLabel": "Vuelo Aeroméxico AM 005"
+  },
+  {
+   "id": "flight-EJU4685",
+   "kind": "flight",
+   "operator": "easyJet",
+   "number": "EJU 4685",
+   "from": {
+    "label": "París Charles de Gaulle",
+    "code": "CDG",
+    "cityKey": "PAR",
+    "tz": "Europe/Paris",
+    "lat": 49.0097,
+    "lng": 2.5479
+   },
+   "to": {
+    "label": "Budapest",
+    "code": "BUD",
+    "cityKey": "BUD",
+    "tz": "Europe/Budapest",
+    "lat": 47.4394,
+    "lng": 19.2618
+   },
+   "departure": "2026-09-20T18:35:00+02:00",
+   "arrival": "2026-09-20T20:45:00+02:00",
+   "familyLabel": "Vuelo easyJet EJU 4685"
+  },
+  {
+   "id": "train-EC142",
+   "kind": "train",
+   "operator": "ÖBB",
+   "number": "EC 142",
+   "from": {
+    "label": "Budapest-Keleti",
+    "cityKey": "BUD",
+    "tz": "Europe/Budapest",
+    "lat": 47.5003,
+    "lng": 19.0834
+   },
+   "to": {
+    "label": "Wien Hbf",
+    "cityKey": "VIE",
+    "tz": "Europe/Vienna",
+    "lat": 48.185,
+    "lng": 16.3775
+   },
+   "departure": "2026-09-23T10:30:00+02:00",
+   "arrival": "2026-09-23T13:20:00+02:00",
+   "familyLabel": "Tren ÖBB EC 142"
+  },
+  {
+   "id": "train-RJX19952",
+   "kind": "train",
+   "operator": "ÖBB Railjet",
+   "number": "RJX 19952",
+   "from": {
+    "label": "Wien Hbf",
+    "cityKey": "VIE",
+    "tz": "Europe/Vienna",
+    "lat": 48.185,
+    "lng": 16.3775
+   },
+   "to": {
+    "label": "Salzburg Hbf",
+    "cityKey": "SZG",
+    "tz": "Europe/Vienna",
+    "lat": 47.813,
+    "lng": 13.0454
+   },
+   "departure": "2026-09-26T09:28:00+02:00",
+   "arrival": "2026-09-26T11:53:00+02:00",
+   "familyLabel": "Tren ÖBB Railjet RJX 19952"
+  },
+  {
+   "id": "train-ICE1212",
+   "kind": "train",
+   "operator": "Deutsche Bahn",
+   "number": "ICE 1212",
+   "from": {
+    "label": "Salzburg Hbf",
+    "cityKey": "SZG",
+    "tz": "Europe/Vienna",
+    "lat": 47.813,
+    "lng": 13.0454
+   },
+   "to": {
+    "label": "München Hbf",
+    "cityKey": "MUC",
+    "tz": "Europe/Berlin",
+    "lat": 48.1402,
+    "lng": 11.5586
+   },
+   "departure": "2026-09-26T18:04:00+02:00",
+   "arrival": "2026-09-26T19:56:00+02:00",
+   "familyLabel": "Tren Deutsche Bahn ICE 1212"
+  },
+  {
+   "id": "flight-KL1848",
+   "kind": "flight",
+   "operator": "KLM",
+   "number": "KL 1848",
+   "from": {
+    "label": "Múnich",
+    "code": "MUC",
+    "cityKey": "MUC",
+    "tz": "Europe/Berlin",
+    "lat": 48.3538,
+    "lng": 11.7861
+   },
+   "to": {
+    "label": "Ámsterdam Schiphol",
+    "code": "AMS",
+    "cityKey": "AMS",
+    "tz": "Europe/Amsterdam",
+    "lat": 52.3105,
+    "lng": 4.7683
+   },
+   "departure": "2026-09-29T07:00:00+02:00",
+   "arrival": "2026-09-29T08:30:00+02:00",
+   "familyLabel": "Vuelo KLM KL 1848"
+  },
+  {
+   "id": "train-Eurostar9340",
+   "kind": "train",
+   "operator": "Eurostar",
+   "number": "Eurostar 9340",
+   "from": {
+    "label": "Amsterdam Centraal",
+    "cityKey": "AMS",
+    "tz": "Europe/Amsterdam",
+    "lat": 52.3791,
+    "lng": 4.9003
+   },
+   "to": {
+    "label": "Paris Gare du Nord",
+    "cityKey": "PAR",
+    "tz": "Europe/Paris",
+    "lat": 48.8809,
+    "lng": 2.3553
+   },
+   "departure": "2026-10-02T11:10:00+02:00",
+   "arrival": "2026-10-02T14:35:00+02:00",
+   "familyLabel": "Tren Eurostar Eurostar 9340"
+  },
+  {
+   "id": "flight-AM006",
+   "kind": "flight",
+   "operator": "Aeroméxico",
+   "number": "AM 006",
+   "from": {
+    "label": "París Charles de Gaulle",
+    "code": "CDG",
+    "cityKey": "PAR",
+    "tz": "Europe/Paris",
+    "lat": 49.0097,
+    "lng": 2.5479
+   },
+   "to": {
+    "label": "Ciudad de México",
+    "code": "MEX",
+    "cityKey": null,
+    "tz": "America/Mexico_City",
+    "lat": 19.4363,
+    "lng": -99.0721
+   },
+   "departure": "2026-10-06T14:55:00+02:00",
+   "arrival": "2026-10-06T19:10:00-06:00",
+   "familyLabel": "Vuelo Aeroméxico AM 006"
+  },
+  {
+   "id": "flight-AM108",
+   "kind": "flight",
+   "operator": "Aeroméxico",
+   "number": "AM 108",
+   "from": {
+    "label": "Ciudad de México",
+    "code": "MEX",
+    "cityKey": null,
+    "tz": "America/Mexico_City",
+    "lat": 19.4363,
+    "lng": -99.0721
+   },
+   "to": {
+    "label": "Torreón",
+    "code": "TRC",
+    "cityKey": null,
+    "tz": "America/Monterrey",
+    "lat": 25.5683,
+    "lng": -103.4108
+   },
+   "departure": "2026-10-06T20:45:00-06:00",
+   "arrival": "2026-10-06T22:30:00-06:00",
+   "familyLabel": "Vuelo Aeroméxico AM 108"
+  }
+ ],
+ "nights": [
+  {
+   "date": "2026-09-20",
+   "hotel": "BUD"
+  },
+  {
+   "date": "2026-09-21",
+   "hotel": "BUD"
+  },
+  {
+   "date": "2026-09-22",
+   "hotel": "BUD"
+  },
+  {
+   "date": "2026-09-23",
+   "hotel": "VIE"
+  },
+  {
+   "date": "2026-09-24",
+   "hotel": "VIE"
+  },
+  {
+   "date": "2026-09-25",
+   "hotel": "VIE"
+  },
+  {
+   "date": "2026-09-26",
+   "hotel": "MUC"
+  },
+  {
+   "date": "2026-09-27",
+   "hotel": "MUC"
+  },
+  {
+   "date": "2026-09-28",
+   "hotel": "MUC"
+  },
+  {
+   "date": "2026-09-29",
+   "hotel": "AMS"
+  },
+  {
+   "date": "2026-09-30",
+   "hotel": "AMS"
+  },
+  {
+   "date": "2026-10-01",
+   "hotel": "AMS"
+  },
+  {
+   "date": "2026-10-02",
+   "hotel": "PAR"
+  },
+  {
+   "date": "2026-10-03",
+   "hotel": "PAR"
+  },
+  {
+   "date": "2026-10-04",
+   "hotel": "PAR"
+  },
+  {
+   "date": "2026-10-05",
+   "hotel": "PAR"
+  },
+  {
+   "date": "2026-10-06",
+   "hotel": "PAR"
+  }
+ ],
+ "hotels": {
+  "BUD": {
+   "name": "Clark Hotel Budapest (Adults Only)",
+   "addr": "Clark Ádám tér 1, Budapest 1013",
+   "lat": 47.49775,
+   "lng": 19.0396,
+   "gm": "https://www.google.com/maps/search/?api=1&query=Clark%20Hotel%20Budapest%20(Adults%20Only)%2C%20Clark%20%C3%81d%C3%A1m%20t%C3%A9r%201%2C%20Budapest%201013",
+   "tel": "+36 1 610 4890"
+  },
+  "VIE": {
+   "name": "Grand Ferdinand",
+   "addr": "Schubertring 10-12, 1010 Wien",
+   "lat": 48.2025,
+   "lng": 16.376,
+   "gm": "https://www.google.com/maps/search/?api=1&query=Grand%20Ferdinand%2C%20Schubertring%2010-12%2C%201010%20Wien",
+   "tel": "+43 1 670 3400"
+  },
+  "MUC": {
+   "name": "NH Collection München Bavaria",
+   "addr": "Arnulfstraße 2, 80335 München",
+   "lat": 48.1418,
+   "lng": 11.557,
+   "gm": "https://www.google.com/maps/search/?api=1&query=NH%20Collection%20M%C3%BCnchen%20Bavaria%2C%20Arnulfstra%C3%9Fe%202%2C%2080335%20M%C3%BCnchen",
+   "tel": "+49 89 54530"
+  },
+  "AMS": {
+   "name": "Sir Albert Hotel",
+   "addr": "Albert Cuypstraat 2-6, 1072 CT Amsterdam",
+   "lat": 52.356,
+   "lng": 4.8878,
+   "gm": "https://www.google.com/maps/search/?api=1&query=Sir%20Albert%20Hotel%2C%20Albert%20Cuypstraat%202-6%2C%201072%20CT%20Amsterdam",
+   "tel": "+31 20 305 3020"
+  },
+  "PAR": {
+   "name": "Airbnb Champs-Élysées",
+   "addr": "102 Avenue des Champs-Élysées, 75008 Paris",
+   "lat": 48.8718,
+   "lng": 2.3004,
+   "gm": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Champs-%C3%89lys%C3%A9es%2C%20102%20Avenue%20des%20Champs-%C3%89lys%C3%A9es%2C%2075008%20Paris"
+  }
+ },
+ "familyContacts": [
+  {
+   "name": "Ani Bremer · SmartFlyer / Alte Travel",
+   "tel": "+52 871 347 8864",
+   "detail": "",
+   "kind": "agency"
+  },
+  {
+   "name": "Hotelbeds emergencias 24 h",
+   "tel": "+34 871 180 153",
+   "detail": "Hoteles y traslado",
+   "kind": "agency"
+  },
+  {
+   "name": "Emergencias UE",
+   "tel": "112",
+   "detail": "Policía / ambulancia en toda Europa",
+   "kind": "emergency"
+  },
+  {
+   "name": "Embajada de México en Francia",
+   "tel": "+33 1 53 70 27 70",
+   "detail": "9 Rue de Longchamp, París · emergencias +33 6 60 21 41 05",
+   "kind": "embassy"
+  },
+  {
+   "name": "Embajada de México en Alemania",
+   "tel": "+49 30 269 3230",
+   "detail": "Berlín · Consulado en Múnich +49 89 5498 5030",
+   "kind": "embassy"
+  }
+ ]
+}
