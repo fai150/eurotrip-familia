@@ -190,14 +190,14 @@ footer button{background:none;border:0;color:var(--sky);text-decoration:underlin
 
   <footer>
     Horario y ubicación estimados según el itinerario; no es seguimiento GPS en tiempo real.<br>
-    <button id="replay">Ver animación otra vez</button> · <span id="ver">v5266bf1bc1</span>
+    <button id="replay">Ver animación otra vez</button> · <span id="ver">ve448423907</span>
   </footer>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script>
 'use strict';
-const BUILD='5266bf1bc1';
+const BUILD='e448423907';
 const REFRESH_MS=45000;
 const MOMENT_MS=8000;
 const $=id=>document.getElementById(id);
@@ -265,8 +265,13 @@ const cname=k=>city(k)?city(k).name:'Europa';
 function copyFor(s){
   const C=cname(s.cityKey), n=now();
   switch(s.kind){
-    case 'pretrip':{const l=P.transport[0];const ms=T(P.trip.start)-n.getTime();
-      return {art:'🧳',k:'Muy pronto',title:'¡Nos vamos a Europa!',line:`Salimos en ${Math.ceil(ms/86400e3)} día${Math.ceil(ms/86400e3)===1?'':'s'} · ${l.familyLabel}`,sub:`${l.from.label} → ${l.to.label} · ${longDate(new Date(l.departure),l.from.tz)}`};}
+    case 'pretrip':{const l=P.transport[0];const dep=new Date(l.departure);
+      // Compare CALENDAR days in the departure city's own timezone, never a raw ms/24h ceiling —
+      // otherwise a flight leaving in 2 hours (later today) misreports as "leaves in 1 day".
+      const daysDiff=Math.round((Date.parse(localDate(dep,l.from.tz)+'T00:00:00Z')-Date.parse(localDate(n,l.from.tz)+'T00:00:00Z'))/86400e3);
+      const at=`${hhmm(dep,l.from.tz)} h`;
+      const when=daysDiff<=0?`hoy a las ${at} (en ${dur(T(l.departure)-n.getTime())})`:daysDiff===1?`mañana a las ${at}`:`en ${daysDiff} días`;
+      return {art:'🧳',k:'Muy pronto',title:'¡Nos vamos a Europa!',line:`Salimos ${when} · ${l.familyLabel}`,sub:`${l.from.label} → ${l.to.label} · ${longDate(dep,l.from.tz)}`};}
     case 'posttrip': return {art:'🏡',k:'Fin del viaje',title:'Ya estamos de regreso',line:'Gracias por acompañarnos estos 17 días.',sub:'Este seguimiento ya terminó.'};
     case 'flight':{const l=s.leg;return {art:'✈️',k:'En vuelo',title:`En vuelo · ${l.operator} ${l.number}`,line:`${l.from.label} → ${l.to.label}`,sub:`Llegada estimada según itinerario: ${hhmm(new Date(l.arrival),l.to.tz)} h · ${l.to.label} · Faltan aproximadamente ${dur(T(l.arrival)-n.getTime())}`};}
     case 'train':{const l=s.leg;return {art:'🚆',k:'En tren',title:`En tren · ${l.operator} ${l.number}`,line:`${l.from.label} → ${l.to.label}`,sub:`Llegada estimada según itinerario: ${hhmm(new Date(l.arrival),l.to.tz)} h · ${cname(l.to.cityKey)||l.to.label} · Faltan aproximadamente ${dur(T(l.arrival)-n.getTime())}`};}
